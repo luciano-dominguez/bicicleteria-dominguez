@@ -1,0 +1,19 @@
+
+/* @media screen and ( max-width:420px) {
+    .cardcontainer {
+        display: flex;
+        justify-content: space-around;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: left 10px;
+    }
+
+}
+    
+
+
+
+@media screen and (min-width:420px){
+
+} */
