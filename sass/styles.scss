@@ -176,6 +176,20 @@ legend {
 
 
 @media only screen and (max-width:768px) {
+    .logocontainer {
+        height: 55px;
+        width: 55px;
+    
+        .logo {
+            height: 150%;
+            width: auto;
+    
+            &:hover {
+                width: 70px;
+                height: 70px;
+            }
+        }
+    }
 
     h1 {
         margin-left: 80px;
@@ -189,14 +203,14 @@ legend {
         padding: left 10px;
     }
 
-    .card {
-        width: 182px;
-    }
+   
 
     .sectioncard {
         margin-right: 30px;
         margin-left: 30px;
-    }
+     .card {
+        width: 172px;
+    }}
 
     .agregar-al-carrito:hover {
         color: rgb(255, 0, 221);
@@ -266,6 +280,7 @@ legend {
         font-size: 25px;
         width: 350px;
         margin-top: 4px;
+        margin-left: 200px;
         display: flex;
     }
 
@@ -284,6 +299,34 @@ legend {
         width: 300px;
         height: 300px;
     }
+
+    footer{
+        .redessociales{
+            gap: 10px;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 820px){
+.navbar{
+    position: fixed;
+    width: 90%;
+}
+.inforeparacion{
+    height: 80px;
+    margin-left: 15px;
+}
+.carousel{
+    height: 400px;
+    margin-left: 5px;
+}
+
+.pcontainer{
+    font-size: 23px;
+}
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1199px) {
@@ -294,8 +337,14 @@ legend {
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         padding-left: 10px;
+        margin-right: 400px;
     }
 
+    .sectioncard{
+        .card{
+            width: 160px;
+        }
+    }
     .agregar-al-carrito {
         border-radius: 30px;
         background-color: blue;
