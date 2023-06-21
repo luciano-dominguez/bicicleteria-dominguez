@@ -173,6 +173,7 @@ footer .redessociales li {
 .sectioncard .agregar-al-carrito:hover {
   transform: all;
   transform: scale(2, 1.5);
+  transition-duration: 180ms;
   background-color: chartreuse;
   height: 98px;
   width: 80px;
@@ -307,6 +308,8 @@ legend {
   }
   .agregar-al-carrito:hover {
     color: rgb(255, 0, 221);
+    margin-bottom: 30px;
+    margin-right: 50px;
   }
   .sticky {
     bottom: 3%;
